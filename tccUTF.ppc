@@ -1,0 +1,33 @@
+[DeviceName]
+Value=P16F887
+[DeviceClock]
+Value=4
+[MainUnit]
+Value=tccUTF.c
+[DeviceFlags]
+Count=4
+Value0=_HS_OSC = $3FFA
+Value1=_WDT_OFF = $3FF7
+Value2=_MCLRE_ON = $3FFF
+Value3=_LVP_OFF = $2FFF
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=tccUTF.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=4
+Value0=C:\Arquivos de programas\Mikroelektronika\mikroC\Defs\
+Value1=C:\Arquivos de programas\Mikroelektronika\mikroC\Uses\p16\
+Value2=C:\Documents and Settings\061040326\Meus documentos\davi\tcc\
+Value3=C:\Documents and Settings\061040326\Meus documentos\davi\virtualPort\
+[IncludePath]
+Count=0

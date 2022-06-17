@@ -1,0 +1,15 @@
+main
+	Usart_Init
+	envia_estado
+		Usart_Write
+	Adc_Read
+		Delay_22us
+	desliga
+		Usart_Read
+		Usart_Data_Ready
+	liga
+		Usart_Read
+		Usart_Data_Ready
+	Usart_Write
+	Usart_Read
+	Usart_Data_Ready
